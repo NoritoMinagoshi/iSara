@@ -378,11 +378,12 @@
         margin-top: 10px;
     }
     .nomad-contents ul li {
-        width: 20%;
+        width: 120px;
+        text-align: center;
     }
     .nomad-contents ul li + li {
         margin-left: 0;
-      }
+    }
     .nomad-contents ul li img {
         height: 30px;
     }
@@ -390,7 +391,6 @@
         font-size: .5rem;
         letter-spacing: 1.5px;
     }
-    
 
     /* .basic */
 
@@ -637,6 +637,9 @@
         cursor: pointer;
         font-weight: bold;
     }
+    .attend-q-text a {
+        font-size: .9rem;
+    }
     .attend-q-text a:hover {
         text-decoration: underline;
     }
@@ -737,6 +740,11 @@
     }
     /* .volunteer */
 
+    .volunteer {
+        background-image: url(../image/specialdetailsp.jpg);
+        padding: 25px;
+    }
+
     .volunteer h3 {
         font-size: 18px;
     }
@@ -744,8 +752,13 @@
         font-size: 12px;
     }
     .volunteer h2 {
-        font-size: 20px;
-        
+        font-size: 1rem;
+        padding: 30px;
+        line-height: 2;
+    }
+    .volunteer h2::before, .volunteer h2::after {
+        width: 25px;
+        height: 25px;
     }
 
     /* .founder-message */
@@ -789,6 +802,7 @@
     }
     .qa-q {
         padding: 10px;
+        font-size: .9rem;
     }
     .qa-a-text {
         padding: 10px;
